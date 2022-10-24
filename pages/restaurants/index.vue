@@ -1,9 +1,7 @@
 <template>
-    <div>
-      <Nav />
-      <div class="container">
-        <RestaurantTable />
-      </div>
+  <div>
+    <div class="container">
+      <RestaurantTable />
     </div>
-  </template>
-  
+  </div>
+</template>

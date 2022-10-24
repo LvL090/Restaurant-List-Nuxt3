@@ -8,7 +8,6 @@ const restaurant = restaurants.find((r) => r.name === name);
 </script>
 
 <template>
-  <Nav />
   <div>
     <div class="restaurant-container">
       <div class="image-container">
