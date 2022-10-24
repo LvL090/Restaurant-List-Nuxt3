@@ -35,7 +35,7 @@ const restaurant = restaurants.find((r) => r.name === name);
   display: flex;
 }
 .image-container {
-  margin: 1rem ;
+  margin: 1rem;
   width: 80%;
   height: 95vh;
 }
@@ -75,7 +75,7 @@ const restaurant = restaurants.find((r) => r.name === name);
   margin: 0;
 }
 .content {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-top: 4rem;
 }
 </style>
