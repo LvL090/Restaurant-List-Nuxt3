@@ -1,6 +1,5 @@
-<template>
-  <div>
-    <slot />
-    <RestaurantAd />
-  </div>
+<template lang="pug">
+div
+  slot
+  RestaurantAd
 </template>

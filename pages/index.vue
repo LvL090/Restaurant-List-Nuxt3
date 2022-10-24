@@ -1,14 +1,9 @@
-<template>
-  <div>
-    <div class="container">
-      <h1>Welcome to Restaurantly</h1>
-      <NuxtLink to="/restaurants">
-        <button type="button" class="btn btn-outline-primary">
-          Go to restaurants
-        </button>
-      </NuxtLink>
-    </div>
-  </div>
+<template lang="pug">
+div
+  .container
+    h1 Welcome to Restaurantly
+    NuxtLink(to="/restaurants")
+      button.btn.btn-outline-primary(type="button") Go to restaurants
 </template>
 
 <style scoped>

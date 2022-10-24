@@ -1,6 +1,5 @@
-<template>
-  <div>
-    <Nav />
-    <slot />
-  </div>
+<template lang="pug">
+div
+  Nav
+  slot
 </template>

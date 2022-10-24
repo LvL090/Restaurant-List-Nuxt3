@@ -1,19 +1,13 @@
-<template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="/">Restaurantly</a>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/restaurants">Restaurants</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+<template lang="pug">
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+  .container-fluid
+    a.navbar-brand(href="/") Restaurantly
+    #navbarSupportedContent.collapse.navbar-collapse
+      ul.navbar-nav.ml-auto.mb-2.mb-lg-0
+        li.nav-item
+          a.nav-link.active(aria-current="page" href="/") Home
+        li.nav-item
+          a.nav-link(href="/restaurants") Restaurants
 </template>
 
 <style scoped>

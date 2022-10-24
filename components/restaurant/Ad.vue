@@ -1,8 +1,7 @@
-<template>
-  <div class="add-container">
-    <h1>Get the best restaurant ad</h1>
-    <button class="btn btn-primary btn-large">Buy Now</button>
-  </div>
+<template lang="pug">
+.add-container
+  h1 Get the best restaurant ad
+  button.btn.btn-primary.btn-large Buy Now
 </template>
 
 <style scoped>
