@@ -8,7 +8,7 @@ const restaurant = restaurants.find((r) => r.name === name);
 </script>
 
 <template>
-  <div>
+  <NuxtLayout name="custom" v-if="restaurant">
     <div class="restaurant-container">
       <div class="image-container">
         <img :src="restaurant.imageUrl" alt="" />
@@ -26,7 +26,7 @@ const restaurant = restaurants.find((r) => r.name === name);
         <p class="content">{{ restaurant.content }}</p>
       </div>
     </div>
-  </div>
+  </NuxtLayout>
 </template>
 
 <style scoped>

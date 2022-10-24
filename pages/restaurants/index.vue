@@ -1,7 +1,9 @@
 <template>
-  <div>
-    <div class="container">
-      <RestaurantTable />
+  <NuxtLayout name="custom">
+    <div>
+      <div class="container">
+        <RestaurantTable />
+      </div>
     </div>
-  </div>
+  </NuxtLayout>
 </template>
