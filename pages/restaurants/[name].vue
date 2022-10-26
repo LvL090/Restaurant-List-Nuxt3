@@ -11,7 +11,14 @@ const restaurant = restaurants.find((r) => r.name === name);
   <NuxtLayout name="custom" v-if="restaurant">
     <div class="restaurant-container">
       <div class="image-container">
-        <img :src="restaurant.imageUrl" alt="" />
+        <nuxt-img
+          :src="restaurant.imageUrl"
+          sizes="sm:200px md:400px lg:800px"
+          loading="lazy"
+          width="1024"
+          height="800"
+          quality="75"
+        />
       </div>
       <div class="info-container">
         <h1>{{ restaurant.name }}</h1>
